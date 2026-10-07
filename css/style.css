@@ -567,3 +567,56 @@ a {
         gap: 15px;
     }
 }
+
+/* Kapitel 2 */
+
+.start-hero {
+    background-image:
+            linear-gradient(
+                    rgba(0, 0, 0, 0.15),
+                    rgba(0, 0, 0, 0.15)
+            ),
+            url("../billeder/Kapitler-start.webp");
+
+    background-size: cover;
+    background-position: center 40%;
+    background-repeat: no-repeat;
+}
+
+
+/* Overskriften er sort på dette billede */
+.start-hero h1 {
+    color: white;
+}
+
+
+/* Billede med former */
+.shapes-image {
+    width: 280px;
+}
+
+
+/* Billede med streger */
+.strokes-image {
+    width: 350px;
+}
+
+
+/* Punktliste */
+.guide-list {
+    margin: 10px 0 25px;
+    padding-left: 25px;
+
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+
+/* Den lille øvelse */
+.exercise {
+    margin-top: 65px;
+}
+
+.exercise h2 {
+    margin-bottom: 25px;
+}
